@@ -1,0 +1,548 @@
+{
+    "nodes":[
+    {
+        "id": 1,
+        "name": "Daniel Kahnwald",
+        "family":"Kahnwald",
+        "years": [
+            1953
+        ],
+        "timeTraveller": false
+    },
+    {
+        "id": 2,
+        "name": "Ines Kahnwald",
+        "family":"Kahnwald",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 3,
+        "name": "Hannah Kahnwald",
+        "family":"Kahnwald",
+        "years": [
+            1986,
+            2019
+        ],
+        "timeTraveller":true
+    },
+    {
+        "id": 4,
+        "name": "Jonas Kahnwald",
+        "family":"Kahnwald",
+        "years": [
+            1921,
+            1953,
+            1986,
+            2019,
+            2052,
+            2085
+        ],
+        "alias": [
+            "Stranger",
+            "Adam"
+        ],
+        "timeTraveller": true
+    },
+    {
+        "id": 5,
+        "name": "Ulrich Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": true
+    },
+    {
+        "id": 6,
+        "name": "Katharina Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 7,
+        "name": "Mikkel Nielsen",
+        "family":"Nielsen",
+        "missing": true,
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "alias": [
+            "Michael Kahnwald"
+        ],
+        "timeTraveller": true
+    },
+    {
+        "id": 8,
+        "name": "Martha Nielsen",
+        "family":"Nielsen",
+        "years": [
+            2019,
+            2052
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 9,
+        "name": "Magnus Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1921,
+            2019,
+            2052
+        ],
+        "gender": "male",
+        "timeTraveller": true
+    },
+    {
+        "id": 10,
+        "name": "Mads Nielsen",
+        "family":"Nielsen",
+        "missing": true,
+        "years": [
+            1986
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 11,
+        "name": "Jana Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 12,
+        "name": "Tronte Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 13,
+        "name": "Agnes Nielsen",
+        "family":"Nielsen",
+        "years": [
+            1921,
+            1953
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 14,
+        "name": "Charlotte Doppler",
+        "family":"Doppler",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 15,
+        "name": "Peter Doppler",
+        "family":"Doppler",
+        "years": [
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 16,
+        "name": "Elisabeth Doppler",
+        "family":"Doppler",
+        "years": [
+            2019,
+            2052
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 17,
+        "name": "Franziska Doppler",
+        "family":"Doppler",
+        "years": [
+            1921,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 18,
+        "name": "Helge Doppler",
+        "family":"Doppler",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": true
+    },
+    {
+        "id": 19,
+        "name": "Greta Doppler",
+        "family":"Doppler",
+        "years": [
+            1953
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 20,
+        "name": "Bernd Doppler",
+        "family":"Doppler",
+        "years": [
+            1953,
+            1986
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 22,
+        "name": "Aleksander Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "alias": [
+            "Boris Niewald"
+        ],
+        "timeTraveller": false
+    },
+    {
+        "id": 23,
+        "name": "Regina Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 24,
+        "name": "Bartosz Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": true
+    },
+    {
+        "id": 25,
+        "name": "Claudia Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": true
+    },
+    {
+        "id": 26,
+        "name": "Egon Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 27,
+        "name": "Doris Tiedeman",
+        "family":"Tiedeman",
+        "years": [
+            1953
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 28,
+        "name": "Ulla Obendorf",
+        "family":"Obendorf",
+        "years": [
+            2019
+        ],
+        "gender": "female",
+        "timeTraveller": false
+    },
+    {
+        "id": 29,
+        "name": "Jurgen Obendorf",
+        "family":"Obendorf",
+        "years": [
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 30,
+        "name": "Erik Obendorf",
+        "family":"Obendorf",
+        "missing": true,
+        "years": [
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": false
+    },
+    {
+        "id": 31,
+        "name": "Noah",
+        "family":"Doppler",
+        "years": [
+            1921,
+            1953,
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "timeTraveller": true
+    },
+    {
+        "id": 32,
+        "name": "H.G. Tannhaus",
+        "family":"Doppler",
+        "years": [
+            1953,
+            1986
+        ],
+        "timeTraveller": false
+    },
+    {
+        "id": 33,
+        "name": "Clausen",
+        "family":"Others",
+        "years": [
+            2019
+        ],
+        "timeTraveller": false
+    },
+    {
+        "id": 34,
+        "name": "Torben Woller",
+        "family":"Others",
+        "years": [
+            2019
+        ],
+        "timeTraveller": false
+    },
+    {
+        "id": 35,
+        "name": "Adam",
+        "family":"Others",
+        "years": [
+            1921,
+            1953,
+            1986,
+            2019,
+            2052,
+            2085
+        ],
+        "timeTraveller": true
+    },
+    {
+        "id": 36,
+        "name": "Michael Kahnwald",
+        "family":"Kahnwald",
+        "years": [
+            1986,
+            2019
+        ],
+        "gender": "male",
+        "alias": [
+            "Mikkel Nielsen"
+        ],
+        "timeTraveller": true
+    }
+    ],
+    "edges":[
+        { "id": 1, "source": 1, "target": 2, "type": "parentOf"},
+        { "id": 2, "source": 2, "target": 1, "type": "parent"},
+        { "id": 3, "source": 2, "target": 36, "type": "parentOf"},
+        { "id": 5, "source": 36, "target": 2, "type": "parent"},
+        { "id": 4, "source": 3, "target": 4, "type": "parentOf"},
+        { "id": 7, "source": 4, "target": 3, "type": "parent"},
+        { "id": 11, "source": 5, "target": 10, "type": "isSibling"},
+        { "id": 12, "source": 5, "target": 12, "type": "parent"},
+        { "id": 13, "source": 5, "target": 11, "type": "parent"},
+        { "id": 14, "source": 5, "target": 7, "type": "parentOf"},
+        { "id": 15, "source": 5, "target": 8, "type": "parentOf"},
+        { "id": 16, "source": 5, "target": 9, "type": "parentOf"},
+        { "id": 17, "source": 14, "target": 31, "type": "parent"},
+        { "id": 18, "source": 31, "target": 14, "type": "parentOf"},
+        { "id": 19, "source": 5, "target": 6, "type": "marriedTo"},
+        { "id": 20, "source": 6, "target": 7, "type": "parentOf"},
+        { "id": 21, "source": 6, "target": 8, "type": "parentOf"},
+        { "id": 22, "source": 6, "target": 9, "type": "parentOf"},
+        { "id": 23, "source": 6, "target": 5, "type": "marriedTo"},
+        { "id": 24, "source": 7, "target": 6, "type": "parent"},
+        { "id": 25, "source": 7, "target": 5, "type": "parent"},
+        { "id": 29, "source": 36, "target": 36, "type": "killedBy"},
+        { "id": 31, "source": 36, "target": 3, "type": "marriedTo"},
+        { "id": 32, "source": 8, "target": 9, "type": "isSibling"},
+        { "id": 33, "source": 8, "target": 7, "type": "isSibling"},
+        { "id": 35, "source": 8, "target": 5, "type": "parent"},
+        { "id": 36, "source": 8, "target": 6, "type": "parent"},
+        { "id": 37, "source": 9, "target": 8, "type": "isSibling"},
+        { "id": 38, "source": 9, "target": 7, "type": "isSibling"},
+        { "id": 40, "source": 9, "target": 5, "type": "parent"},
+        { "id": 41, "source": 9, "target": 6, "type": "parent"},
+        { "id": 42, "source": 10, "target": 5, "type": "isSibling"},
+        { "id": 43, "source": 10, "target": 31, "type": "killedBy"},
+        { "id": 44, "source": 11, "target": 5, "type": "parentOf"},
+        { "id": 45, "source": 11, "target": 10, "type": "parentOf"},
+        { "id": 46, "source": 11, "target": 12, "type": "marriedTo"},
+        { "id": 47, "source": 12, "target": 13, "type": "parent"},
+        { "id": 48, "source": 12, "target": 5, "type": "parentOf"},
+        { "id": 49, "source": 12, "target": 10, "type": "parentOf"},
+        { "id": 50, "source": 12, "target": 23, "type": "parentOf"},
+        { "id": 51, "source": 12, "target": 11, "type": "marriedTo"},
+        { "id": 52, "source": 13, "target": 31, "type": "isSibling"},
+        { "id": 53, "source": 13, "target": 12, "type": "parentOf"},
+        { "id": 54, "source": 14, "target": 16, "type": "parent"},
+        { "id": 55, "source": 14, "target": 31, "type": "parent"},
+        { "id": 56, "source": 14, "target": 17, "type": "parentOf"},
+        { "id": 57, "source": 14, "target": 16, "type": "parentOf"},
+        { "id": 58, "source": 14, "target": 15, "type": "marriedTo"},
+        { "id": 59, "source": 15, "target": 18, "type": "parent"},
+        { "id": 60, "source": 15, "target": 17, "type": "parentOf"},
+        { "id": 61, "source": 15, "target": 16, "type": "parentOf"},
+        { "id": 62, "source": 15, "target": 14, "type": "marriedTo"},
+        { "id": 63, "source": 16, "target": 17, "type": "isSibling"},
+        { "id": 64, "source": 16, "target": 15, "type": "parent"},
+        { "id": 65, "source": 16, "target": 14, "type": "parent"},
+        { "id": 66, "source": 16, "target": 14, "type": "parentOf"},
+        { "id": 67, "source": 17, "target": 16, "type": "isSibling"},
+        { "id": 68, "source": 17, "target": 14, "type": "parent"},
+        { "id": 69, "source": 17, "target": 15, "type": "parent"},
+        { "id": 70, "source": 18, "target": 20, "type": "parent"},
+        { "id": 71, "source": 18, "target": 19, "type": "parent"},
+        { "id": 72, "source": 18, "target": 15, "type": "parentOf"},
+        { "id": 73, "source": 18, "target": 18, "type": "killedBy"},
+        { "id": 74, "source": 19, "target": 18, "type": "parentOf"},
+        { "id": 75, "source": 19, "target": 20, "type": "marriedTo"},
+        { "id": 76, "source": 20, "target": 18, "type": "parentOf"},
+        { "id": 77, "source": 20, "target": 19, "type": "marriedTo"},
+        { "id": 78, "source": 22, "target": 24, "type": "parentOf"},
+        { "id": 79, "source": 22, "target": 23, "type": "marriedTo"},
+        { "id": 80, "source": 23, "target": 12, "type": "parent"},
+        { "id": 81, "source": 23, "target": 25, "type": "parent"},
+        { "id": 82, "source": 23, "target": 24, "type": "parentOf"},
+        { "id": 83, "source": 23, "target": 22, "type": "marriedTo"},
+        { "id": 84, "source": 24, "target": 23, "type": "parent"},
+        { "id": 85, "source": 24, "target": 22, "type": "parent"},
+        { "id": 86, "source": 25, "target": 26, "type": "parent"},
+        { "id": 87, "source": 25, "target": 27, "type": "parent"},
+        { "id": 88, "source": 25, "target": 23, "type": "parentOf"},
+        { "id": 89, "source": 25, "target": 31, "type": "killedBy"},
+        { "id": 90, "source": 26, "target": 27, "type": "parent"},
+        { "id": 91, "source": 26, "target": 25, "type": "parentOf"},
+        { "id": 92, "source": 27, "target": 25, "type": "parentOf"},
+        { "id": 93, "source": 27, "target": 26, "type": "marriedTo"},
+        { "id": 94, "source": 31, "target": 13, "type": "isSibling"},
+        { "id": 95, "source": 31, "target": 14, "type": "parentOf"},
+        { "id": 96, "source": 31, "target": 13, "type": "killedBy"},
+        { "id": 97, "source": 4, "target": 35, "type": "samePersonOf"},
+        { "id": 98, "source": 35, "target": 4, "type": "samePersonOf"},
+        { "id": 99, "source": 7, "target": 36, "type": "samePersonOf"},
+        { "id": 100, "source": 36, "target": 7, "type": "samePersonOf"},
+        { "id": 101, "source": 3, "target": 5, "type": "affair", "year": 2019},
+        { "id": 102, "source": 5, "target": 3, "type": "affair", "year": 2019},
+        { "id": 103, "source": 4, "target": 8, "type": "affair", "year": 2019},
+        { "id": 105, "source": 8, "target": 4, "type": "affair", "year": 2019},
+        { "id": 107, "source": 8, "target": 24, "type": "affair", "year": 2019},
+        { "id": 108, "source": 24, "target": 8, "type": "affair", "year": 2019},
+        { "id": 109, "source": 9, "target": 17, "type": "affair", "year": 2019},
+        { "id": 110, "source": 17, "target": 9, "type": "affair", "year": 2019},
+        { "id": 111, "source": 12, "target": 25, "type": "affair", "year": 1986},
+        { "id": 112, "source": 25, "target": 12, "type": "affair", "year": 1986},
+        { "id": 113, "source": 13, "target": 27, "type": "affair", "year": 1953},
+        { "id": 114, "source": 27, "target": 13, "type": "affair", "year": 1953},
+        { "id": 115, "source": 33, "target": 34, "type": "collegueOf"},
+        { "id": 116, "source": 34, "target": 33, "type": "collegueOf"},
+        { "id": 117, "source": 14, "target": 34, "type": "collegueOf"},
+        { "id": 118, "source": 34, "target": 14, "type": "collegueOf"},
+        { "id": 119, "source": 14, "target": 33, "type": "collegueOf"},
+        { "id": 120, "source": 33, "target": 14, "type": "collegueOf"},
+        { "id": 121, "source": 33, "target": 5, "type": "collegueOf"},
+        { "id": 122, "source": 5, "target": 33, "type": "collegueOf"},
+        { "id": 123, "source": 5, "target": 34, "type": "collegueOf"},
+        { "id": 124, "source": 34, "target": 5, "type": "collegueOf"},
+        { "id": 125, "source": 14, "target": 5, "type": "collegueOf"},
+        { "id": 126, "source": 5, "target": 14, "type": "collegueOf"},
+        { "id": 127, "source": 32, "target": 16, "type": "parentOf"},
+        { "id": 128, "source": 16, "target": 32, "type": "parent"},
+        { "id": 129, "source": 28, "target": 29, "type": "marriedTo"},
+        { "id": 130, "source": 29, "target": 28, "type": "marriedTo"},
+        { "id": 131, "source": 30, "target": 28, "type": "parent"},
+        { "id": 132, "source": 30, "target": 29, "type": "parent"},
+        { "id": 133, "source": 28, "target": 30, "type": "parentOf"},
+        { "id": 134, "source": 29, "target": 30, "type": "parentOf"},
+        { "id": 135, "source": 34, "target": 30, "type": "isLookingFor"},
+        { "id": 136, "source": 5, "target": 30, "type": "isLookingFor"},
+        { "id": 137, "source": 33, "target": 30, "type": "isLookingFor"},
+        { "id": 138, "source": 14, "target": 30, "type": "isLookingFor"},
+        { "id": 139, "source": 34, "target": 7, "type": "isLookingFor"},
+        { "id": 140, "source": 5, "target": 7, "type": "isLookingFor"},
+        { "id": 141, "source": 33, "target": 7, "type": "isLookingFor"},
+        { "id": 142, "source": 14, "target": 7, "type": "isLookingFor"},
+        { "id": 143, "source": 3, "target": 36, "type": "marriedTo"},
+        { "id": 144, "source": 7, "target": 8, "type": "isSibling"},
+        { "id": 145, "source": 7, "target": 9, "type": "isSibling"},
+        { "id": 148, "source": 4, "target": 36, "type": "parent"},
+        { "id": 149, "source": 36, "target": 4, "type": "parentOf"},
+        { "id": 150, "source": 16, "target": 14, "type": "parent"},
+        { "id": 151, "source": 14, "target": 16, "type": "parent"},
+        { "id": 152, "source": 16, "target": 14, "type": "parentOf"},
+        { "id": 153, "source": 16, "target": 31, "type": "affair"},
+        { "id": 154, "source": 31, "target": 16, "type": "affair"},
+        { "id": 155, "source": 10, "target": 11, "type": "parent"},
+        { "id": 156, "source": 10, "target": 12, "type": "parent"}
+    ]
+}

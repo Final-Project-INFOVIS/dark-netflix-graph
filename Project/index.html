@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<style>
+/*  style definitions */
+button {
+  border: 0;
+  width: 90px;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #b3b3b3;
+  background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+button:hover {
+    background-color: #737373;
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+</style>
+<style>
+  input.houseCheck {
+            width: 17px;
+            height: 17px;
+        }
+   input.familyCheck {
+            width: 17px;
+            height: 17px;
+        }
+</style>
+<head>
+    <title>Dark Netflix Graph Network</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.js"></script> 
+
+
+
+</head>
+<body bgcolor="#333333">
+
+  <center><img src="/image_resized/TITLE.png" width="500" height="150"></center>
+  
+  
+  <font size="5" color="white" style="margin-left:295px" /><b>Edge Filtering</b></font>
+  <br><br>
+  <table>
+
+      <tr>
+
+        <td width="70">
+          <center><img src="/image_resized/leg1.jpg" width="55" height="55"></center> 
+        </td>
+        
+
+        
+        
+        
+
+        <form onsubmit="return false;">
+        <td width="150" align="center">
+          <input type="checkbox" id="parentType"class="houseCheck"><font size="3" color="white"> Parent</font></font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="parentOfType" class="houseCheck"><font size="3" color="white"> ParentOf</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="killedByType" class="houseCheck"><font size="3" color="white"> KilledBy</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="marriedToType" class="houseCheck"><font size="3" color="white"> MarriedTo</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="isSiblingType" class="houseCheck"><font size="3" color="white"> IsSibling</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="samePersonOfType" class="houseCheck"><font size="3" color="white">SamePerson</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="affairType" class="houseCheck"><font size="3" color="white"> Affair</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="collegueOfType" class="houseCheck"><font size="3" color="white"> CollegueOf</font></input>
+        </td>
+        <td width="150" align="center">
+          <input type="checkbox" id="isLookingForType" class="houseCheck"><font size="3" color="white"> IsLookingFor</font></input>
+        </td>
+        </form>
+
+      </tr>
+
+      <tr>
+          
+          
+        
+        <td width="370">
+          <font size="3" color="white"><center> Click nodes to change face</center></font>
+        </td>
+    
+          
+
+        
+        
+        <td width="150" align="center">
+          <svg height="50" width="100">
+
+            <defs>
+              <marker id="triangle1" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0066ff"/>
+              </marker>
+            </defs>
+
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#0066ff;stroke-width:5" marker-end="url(#triangle1)"/>/*blue*/
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+             <defs>
+              <marker id="triangle2" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#00cc00"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#00cc00;stroke-width:5" marker-end="url(#triangle2)"/>/*green*/
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle3" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="red"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:red;stroke-width:5" marker-end="url(#triangle3)"/>  /* red */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle4" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffb3da"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#ffb3da;stroke-width:5" marker-end="url(#triangle4)"/>/* pink */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle5" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="yellow"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:yellow;stroke-width:5" marker-end="url(#triangle5)"/>  /* yellow */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle6" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="white"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:white;stroke-width:5" marker-end="url(#triangle6)"/>/* white */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle7" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#FFAA1D"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#FFAA1D;stroke-width:5" marker-end="url(#triangle7)"/>  /* orange */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle8" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#b300b3"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#b300b3;stroke-width:5" marker-end="url(#triangle8)"/>  /* purple */
+          </svg>
+        </td>
+        <td width="150" align="center">
+          <svg height="50" width="100">
+            <defs>
+              <marker id="triangle9" viewBox="0 0 10 10" refX="4" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#663300"/>
+              </marker>
+            </defs>
+            <line x1="10" y1="10" x2="90" y2="10" style="stroke:#663300;stroke-width:5" marker-end="url(#triangle9)"/>  /* brown */
+          </svg>
+        </td>
+
+      </tr>
+      <tr>
+        <tr>
+          <td><center><img src="/image_resized/leg2.jpg" width="55" height="55"></center></td>
+          <td colspan="11" height="55">
+          <font size="5" color="white" style="margin-left:20px " /><b>Family filtering</b></font>
+          <font size="5" color="white" style="margin-left:518px " /><b>Select year</b></font></td>
+        </tr>
+          
+        <tr><td><font size="3" color="white"><center> Purple nodes are Time Traveller</center></font>
+        </td>
+      <td align="center" height="55"><form onsubmit="return false;">
+        
+          <input type="checkbox" id="familyKahnwald" class="familyCheck"><font size="3" color="white"> Kahnwald</font></font></input></td>
+        
+          <td align="center">
+          <input type="checkbox" id="familyNielsen" class="familyCheck"><font size="3" color="white"> Nielsen</font></input></td>
+        
+          <td align="center">
+          <input type="checkbox" id="familyDoppler" class="familyCheck"><font size="3" color="white"> Doppler</font></input></td>
+
+          <td align="center">
+          <input type="checkbox" id="familyTiedeman" class="familyCheck"><font size="3" color="white"> Tiedeman</font></input></td>
+          <td align="center">             
+          <input type="checkbox" id="familyOthers" class="familyCheck"><font size="3" color="white"> Others</font></input>
+        
+        </form></td>
+        <td colspan="5" align="center"><button type="button1" class="filter-btn-1953" id="1953" value="1"> 1953 </button>&nbsp&nbsp
+        <button type="button3" class="filter-btn-1986" id="1986" value="2"> 1986 </button>&nbsp&nbsp
+        <button type="button3" class="filter-btn-2019" id="2019" value="3"> 2019 </button>&nbsp&nbsp
+        <button type="button4" class="filter-btn-2052" id="2052" value="4"> 2052 </button>
+        <button type="button5" class="filter-btn-all" id="all" value="5"> ALL </button>&nbsp&nbsp
+
+        
+        
+      </tr>
+</table>
+
+
+  <script src="js/graph.js"></script>
+  
+</body>
+</html>
