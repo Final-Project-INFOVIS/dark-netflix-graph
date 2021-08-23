@@ -43,8 +43,17 @@ L'utente può interagire con l'interfaccia grafica in diversi mod con bottoni e 
 
 Examples 
 ------------
+### Filtering Interface 
+![picture](legend.PNG)
 
+### Esempio 1 
+![picture](Esempio1.PNG)
 
+### Esempio 2
+![picture](Esempio2.PNG)
+
+### Esempio 3 
+![picture](Esempio3.PNG)
 
 
 Maintainers
